@@ -15,6 +15,7 @@ shortenForm.addEventListener('submit', async (event) => {
   event.preventDefault();
 
   const url = shortenInput.value;
+  console.log(url)
   if (!url) {
     alert('Please enter a valid URL.');
     return;
@@ -57,7 +58,7 @@ function displayShortenedLink(linkData) {
   copyButton.textContent = 'Copy';
   copyButton.addEventListener('click', () => {
     copyToClipboard(linkData.shortened);
-    copyButton.textContent = 'Copied';
+    copyButton.textContent = 'Copied!';
     copyButton.classList.add('copied-button');
   });
 
