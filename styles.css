@@ -6,6 +6,7 @@ body{
     align-items: center;
     width: 100%;
     margin: 0 20px 0 0px;
+   
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -14,6 +15,7 @@ body{
 .content-page{
     width: 100%;
     height: auto;
+    
 }
   header {
     display: flex;
@@ -132,11 +134,18 @@ body{
   /*Styling the container*/
 
   #container {
-    max-width: 900px;
-    margin: 0 auto;
+   
+    margin-left: 15%;
     background-color: rgb(20, 44, 87);
     border-radius: 5px;
     height: 100px;
+    position: absolute;
+    max-width: 70%;
+    width: 100%;
+    top: -3rem;
+    
+    
+    
 
   }
   
@@ -209,7 +218,7 @@ body{
 /*Style for the h1 and the paragraph*/
 .second-section .statistic{
    text-align: center;
-   padding-top: 250px;
+   padding-top: 100px;
   
 }
 
@@ -221,31 +230,39 @@ body{
 
 .ligne{
     border-bottom: 5px solid #3cdde6;
-    width: 50%;
+    width: 30%;
     margin: auto;
-    margin-bottom: 0px;
+    margin-left: 8%;
     margin-top: 100px;
+    position: absolute;
   }
 
   /*White section style*/
   .prod {
     display: flex;
    padding-bottom: 10%;
-   gap: 10px;
+   gap:0px;
+   width: 100%;
+   margin-left: 25%;
+   margin-right: 10%;
+   padding-top: 50px;
   }
   .home-products {
     background-color: white;
     border-radius: 5px;
-    height: 200px;
-    margin-left: 100px;
+    height: 250px;
+    margin-left: 30px;
     display: flex;
-    width: 20%;
+    width: 15%;
     justify-content: center;
   }
   .home-products .product-image img {
     width: 50px;
     height: auto;
-    padding-left: 5px;
+    margin-left: 70px;
+    position:absolute;
+    margin-top: -25px;
+    
   }
 
   .home-products .product-description {
@@ -255,11 +272,15 @@ body{
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 10px;
+    margin-top: 40px;
+    
   }
   .home-products .product-description p {
     margin-bottom: 0px;
-    font-size: 14px;
+    font-size: 18px;
     text-overflow: unset;
+  
+    padding: 5px;
 
   }
   
